@@ -7,8 +7,10 @@ ListRenderer.include({
 
     init: function (parent, state, params) {
         this._super.apply(this, arguments);
-        if (!this.editable) this.creates = [];
-        this.addTrashIcon = this.editable && this.addTrashIcon
+        if (this.getParent() && this.getParent().mode !== 'edit') {
+            this.creates = [];
+            this.addTrashIcon = false;
+        }
     },
 
 });
