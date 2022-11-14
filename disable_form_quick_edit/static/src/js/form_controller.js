@@ -5,6 +5,7 @@ let FormController = require('web.FormController');
 
 FormController.include({
     _onQuickEdit: function () {},
+    canBeRemoved: function () {},
 });
 
 });

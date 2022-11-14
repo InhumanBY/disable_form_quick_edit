@@ -1,7 +1,7 @@
 {
     'name': 'Disable form quick edit',
-    'summary': 'Disable quick edit in Form View by clicking field',
-    'version': '15.0.1.0.3',
+    'summary': 'Disable quick edit in Form View by clicking field and disable form auto save',
+    'version': '15.0.1.0.4',
     'category': 'Tools',
     'website': 'https://github.com/InhumanBY',
     'author': 'Maris Riediger',
